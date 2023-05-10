@@ -1,6 +1,8 @@
 name: CICD workflows
 on:
-  push:
+  pull_request:
+    
+  merge_group:
     branches: [main]
     paths-ignore:
     - .gitignore
@@ -14,5 +16,8 @@ defaults:
     shell: pwsh
   
 jobs:
-  deploy:
-    uses: ./.github/workflows/deploy.yml
+  build:
+    uses: ./.github/workflows/build.yml
+
+  unit-test:
+    uses: ./.github/workflows/unit-test.yml
