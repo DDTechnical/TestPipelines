@@ -11,8 +11,8 @@ jobs:
         name: Checkout
 
       - name: run tests
-        working-directory:  ./
+        working-directory: './Src/Solution1/TestProject1/'
         run: |
           dotnet test \ 
             --configuration Release \
-            --filter "/Src/Solution1/TestProject1/TestProject1.csproj"
+            TestProject1.csproj
