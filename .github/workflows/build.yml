@@ -16,5 +16,5 @@ jobs:
         name: Checkout
     
       - name: Build
-        working-directory: '/Src/Test Console App/'
+        working-directory: '/Src/Solution1/Test Console App/'
         run: dotnet build -c Release 'Test Console App.csproj'
