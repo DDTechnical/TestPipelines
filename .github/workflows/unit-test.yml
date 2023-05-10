@@ -15,4 +15,4 @@ jobs:
         run: |
           dotnet test \ 
             --configuration Release \
-            --filter "/Src/Solution1/TestProject1/TestProject1.csproj"
+            --filter "./Src/Solution1/TestProject1/TestProject1.csproj"
