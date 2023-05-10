@@ -11,6 +11,6 @@ jobs:
         name: Checkout
 
       - name: Deploy
-        run: sleep(300)
+        run: sleep 1m
         shell: bash
 
