@@ -1,0 +1,15 @@
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.csproj.AssemblyReference.cache
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.AssemblyInfoInputs.cache
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.AssemblyInfo.cs
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.csproj.CoreCompileInputs.cache
+C:\repos\TestPipelines\Src\Solution1\Test Console App\bin\Debug\net6.0\Test Console App.exe
+C:\repos\TestPipelines\Src\Solution1\Test Console App\bin\Debug\net6.0\Test Console App.deps.json
+C:\repos\TestPipelines\Src\Solution1\Test Console App\bin\Debug\net6.0\Test Console App.runtimeconfig.json
+C:\repos\TestPipelines\Src\Solution1\Test Console App\bin\Debug\net6.0\Test Console App.dll
+C:\repos\TestPipelines\Src\Solution1\Test Console App\bin\Debug\net6.0\Test Console App.pdb
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.dll
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\refint\Test Console App.dll
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.pdb
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\Test Console App.genruntimeconfig.cache
+C:\repos\TestPipelines\Src\Solution1\Test Console App\obj\Debug\net6.0\ref\Test Console App.dll
