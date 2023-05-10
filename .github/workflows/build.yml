@@ -18,3 +18,11 @@ jobs:
       - name: Build
         working-directory: './Src/Solution1/Test Console App/'
         run: dotnet build -c Release 'Test Console App.csproj'
+      
+      - name: Release
+        if: |
+          github.event_name != 'merge_group'
+          github.event_name != 'pull_request'
+        run: echo "Release"
+
+        
