@@ -23,6 +23,6 @@ jobs:
         if: |
           github.event_name != 'merge_group' ||
           github.event_name != 'pull_request'
-        run: echo "Release"
+        run: echo ${{github.event_name}}
 
         
