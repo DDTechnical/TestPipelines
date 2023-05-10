@@ -11,8 +11,5 @@ jobs:
         name: Checkout
 
       - name: run tests
-        working-directory:  ./
         run: |
-          dotnet test \ 
-            --configuration Release \
-            --filter "FullyQualifiedName~TestProject"
+          dotnet test "Src/Solution1/TestProject1/TestProject1.csproj" --configuration Release
