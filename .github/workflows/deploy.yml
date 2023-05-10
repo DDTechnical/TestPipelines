@@ -4,13 +4,18 @@ on:
   workflow_call:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: ./.github/workflows/build.yml
+
+      - uses: ./.github/workflows/unit-test.yml
+
       - uses: actions/checkout@v3
         name: Checkout
-
+      
       - name: Deploy
         run: sleep 1m
         shell: bash
+      
 
