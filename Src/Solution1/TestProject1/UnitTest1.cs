@@ -9,8 +9,8 @@ namespace MyNamespace.Tests
         public void TestAdd()
         {
             MyClass myClass = new MyClass();
-            int result = myClass.Add(2, 4);
-            Assert.Equal(6, result);
+            int result = myClass.Add(3, 4);
+            Assert.Equal(7, result);
         }
     }
 }
