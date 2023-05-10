@@ -1,4 +1,4 @@
-name: CICD workflows
+name: Merge Group
 on:
   pull_request:
     
