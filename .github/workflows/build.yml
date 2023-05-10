@@ -1,0 +1,21 @@
+name: Build code
+
+on:
+  workflow_call:
+    
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout
+    
+      - name: Build
+        working-directory: '.\Src\Test Console App\'
+        run: dotnet build -c Release 'Test Console App.csproj'
+    
