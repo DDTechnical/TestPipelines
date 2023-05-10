@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Test_Console_App
-build_property.ProjectDir = C:\repos\TestPipelines\Src\Solution1\Test Console App\
+build_property.ProjectDir = c:\repos\TestPipelines\Src\Solution1\Test Console App\
